@@ -5,9 +5,12 @@ public class Bog {
     public Bog() {
         status = Status.LEDIG;
     }
+
     public void laan() {
-        status = Status.UDLÅNT;
-        reserveret = false;
+        if (status == Status.LEDIG) {
+            status = Status.UDLÅNT;
+            reserveret = false;
+        }
     }
 
     public void reserver() {

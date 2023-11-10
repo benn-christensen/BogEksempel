@@ -7,6 +7,7 @@ public class Test {
         bog.aflever();
         System.out.println("bog.getStatus() = " + bog.getStatus());
         bog.laan();
+        bog.laan();
         bog.reserver();
         System.out.println("bog.getStatus() = " + bog.getStatus());
         bog.aflever();
